@@ -1,0 +1,163 @@
+.footer {
+  padding: 20px;
+  background-color: #fbf9ea;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  margin-bottom: -2rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    padding-bottom: 15px;
+    align-items: flex-start;
+  }
+
+  .footer-logo h1 {
+    font-size: 4.875rem;
+    font-weight: 500;
+
+    @media (max-width: 768px) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .footer-contact {
+    text-align: right;
+
+    @media (max-width: 768px) {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    a {
+      font-size: 4.875rem;
+      color: #000;
+      text-decoration: none;
+
+      @media (max-width: 768px) {
+        font-size: 3rem;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  display: flex;
+  padding: 20px 0;
+}
+
+.footer-sitemap,
+.footer-socials {
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.footer-sitemap h3,
+.footer-socials h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-sitemap ul,
+.footer-socials ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-sitemap li,
+.footer-socials li {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1.5rem;
+  color: #666;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h4 {
+    font-family: "Monument Ultrabold", sans-serif;
+    color: black;
+    font-size: 8rem;
+
+    @media (max-width: 768px) {
+      font-size: 5rem;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 3rem;
+    }
+  }
+
+  p {
+    font-size: 1.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 1rem;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
+.hover-underline-animation {
+  position: relative;
+  margin-bottom: 1.5rem;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 2s ease;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}

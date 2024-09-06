@@ -1,0 +1,25 @@
+.home-video {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    height: 100vh; // Reduce height on tablets
+  }
+
+  @media (max-width: 480px) {
+    height: 50vh; // Reduce height on mobile devices
+  }
+
+  @media (orientation: landscape) and (max-height: 480px) {
+    height: 100vh; // Full height in landscape mode for small devices
+  }
+}

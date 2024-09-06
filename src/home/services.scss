@@ -1,0 +1,98 @@
+@keyframes drawLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.service-container {
+  min-height: 100vh;
+  position: relative;
+  padding-top: 5rem;
+  background-color: #fbf9ea;
+
+  .service-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+    hr {
+      width: 0%; /* Initial width for GSAP to animate from */
+      height: 0.5px;
+      background-color: black;
+      border: none;
+    }
+    h3 {
+      line-height: 1.1;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      display: inline-block;
+      overflow: hidden;
+      width: 100%;
+    }
+  }
+
+  .service-main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    > hr {
+      border: 0.2px solid lightgray;
+      opacity: 0.4;
+    }
+    .service-sub-container {
+      display: flex;
+      flex-direction: row;
+      height: 8rem;
+      align-items: flex-start;
+      margin-top: 4rem;
+
+      .sub-number {
+        width: 15rem;
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      .sub-name {
+        width: 30rem;
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      .sub-description {
+        width: 30rem;
+        color: #86888a;
+        text-align: left;
+        font-size: 1rem;
+      }
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 15px;
+        align-items: flex-start;
+
+        .sub-number {
+          display: none;
+        }
+        .sub-name {
+          margin-top: -1rem;
+          margin-bottom: 1rem;
+
+          width: 100%;
+        }
+        .sub-description {
+          margin-bottom: 0.5rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

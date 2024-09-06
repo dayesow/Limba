@@ -1,0 +1,17 @@
+.icon {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.down {
+  transform: rotate(90deg);
+}
+
+.right-up {
+  transform: rotate(-45deg);
+}
+
+/* .animate-hr {
+  border-top: 0.7px solid black;
+  animation: drawLine 3s ease-in-out forwards;
+} */

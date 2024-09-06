@@ -1,0 +1,69 @@
+.gallery-container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  place-content: center;
+  background-color: #fbf9ea;
+  overflow: hidden; /* Verbergt de scrollbar */
+  white-space: nowrap; /* Zorgt ervoor dat de afbeeldingen naast elkaar blijven staan */
+}
+
+.gallery-header-container {
+  display: flex;
+
+  margin-right: 1.5rem;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+
+  a {
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    scroll-behavior: smooth;
+  }
+
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+  }
+
+  .hover-underline-animation::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 1s ease;
+  }
+
+  .hover-underline-animation:hover {
+    cursor: pointer;
+  }
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.gallery {
+  display: flex; /* Gebruikt flexbox om de afbeeldingen horizontaal uit te lijnen */
+  width: max-content; /* Zorgt ervoor dat de breedte van de gallery wordt bepaald door de inhoud */
+}
+
+.gallery img {
+  height: 250px; /* Stelt de hoogte van de afbeeldingen in */
+  object-fit: cover; /* Zorgt ervoor dat de afbeeldingen hun aspect ratio behouden en de container vullen */
+  margin-right: 5px; /* Voeg wat ruimte toe tussen de afbeeldingen */
+}
