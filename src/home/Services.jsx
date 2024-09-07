@@ -11,19 +11,19 @@ const Services = () => {
       number: "01.",
       name: "Leescoach",
       description:
-        "We delve deep into understanding your target audience and competitive landscape. With this insight, we craft compelling brand stories, defining your values and messaging.",
+        "Als leescoach help, inspireer en begeleid ik scholen, bibliotheken en soortgelijke organisaties om jongeren aan te moedigen meer te lezen. Daarnaast geef ik ook lezing en workshops waarbij ik mijn expertise en methodes die ik hanteer om het leesplezier en de leesmotivatie te stimuleren.",
     },
     {
       number: "02.",
       name: "Schrijver",
       description:
-        "User experience is at the heart of what we do in Rethink studio. Our UI/UX design services focus on creating intuitive, visually appealing interfaces that captivate users.",
+        "Onlangs heb ik mijn debuutroman Limbaverse geschreven en geïllustreerd.  Dit boek neemt je mee op een spannend avontuur en is een echte pageturner, verrijkt met spectaculaire illustraties die ik zelf heb getekend. Maar er is meer: het verhaal zit boordevol verwijzingen naar andere boeiende verhalen, waardoor het een springplank kan zijn naar nog meer leesplezier.",
     },
     {
       number: "03.",
       name: "Illustrator",
       description:
-        "Using cutting-edge technologies and industry best practices, we build responsive, high-performance websites that not only look stunning but also function flawlessly.",
+        "Naast mijn andere activiteiten ben ik ook (digitaal) illustrator. Ik creëer posters, personages en Afrikaanse maskers. Daarnaast geef ik illustratieworkshops waarbij de deelnemers in mijn schoenen staan. Tijdens deze workshops begeleid ik hen door het creatieve proces, deel ik mijn ervaringen en help ik hen hun eigen illustraties te maken.",
     },
   ];
   useEffect(() => {

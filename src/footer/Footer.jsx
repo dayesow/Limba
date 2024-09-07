@@ -33,18 +33,18 @@ const Footer = () => {
             </li>
             <li>
               <a href="/about" className="hover-underline-animation">
-                About
+                Over ons
               </a>
             </li>
 
             <li>
               <a href="/gallery" className="hover-underline-animation">
-                Gallery
+                Gallerij
               </a>
             </li>
             <li>
               <a href="/bookpromotion" className="hover-underline-animation">
-                Latest books
+                Limbaverse
               </a>
             </li>
             <li>
@@ -96,7 +96,7 @@ const Footer = () => {
             onClick={scrollToTop}
             className="hover-underline-animation"
           >
-            Back to top ↑
+            Naar boven ↑
           </a>
         </p>
       </div>

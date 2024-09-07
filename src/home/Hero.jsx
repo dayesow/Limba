@@ -24,22 +24,14 @@ const Hero = () => {
     );
   }, []);
 
-  let heroServices = [
-    "Illustrator",
-    "Writer",
-    "Leescoach",
-    "Creative Workshops",
-  ];
-
+  let heroServices = ["Leescoach", "Schrijver", "Illustrator"];
+  const descriptionText = "Lezen is bestemd voor iedereen";
   return (
     <div className="hero-container">
       <h1 className="our-text">LIMBA</h1>
 
       <div className="hero-sub-container">
-        <p>
-          BETOVERENDE LEESERVARINGEN EN PERSOONLIJKE GROEI <br></br>VOOR LEZERS
-          VAN ALLE LEEFTIJDEN
-        </p>
+        <p>{descriptionText}</p>
         <div>
           {heroServices.map((c, i) => (
             <button key={i}>{c.toUpperCase()}</button>

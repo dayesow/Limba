@@ -68,7 +68,7 @@ const ActiveWorkSpace = () => {
   return (
     <div className="active-work-space" style={{ minHeight: "100vh" }}>
       <div className="title">
-        <h3 className="active-work-title">Spaces I work in</h3>
+        <h3 className="active-work-title">Ruimtes waarin ik werk</h3>
       </div>
       <div className="areas-of-focus">
         <div className="focus-section">
@@ -80,13 +80,13 @@ const ActiveWorkSpace = () => {
         </div>
         <div className="focus-list">
           <ul>
-            <li>Onderwijsinstellingen</li>
             <li>Bibliotheken</li>
+            <li>Scholen</li>
+            <li>Onderwijsinstellingen</li>
+            <li>Cultuurhuizen</li>
             <li>Gemeenschapscentra</li>
+            <li>Verenigingen</li>
             <li>Boekhandels</li>
-            <li>Non-profitorganisaties</li>
-            <li>Ziekenhuizen</li>
-            <li>Culturele instellingen</li>
           </ul>
           <div className="hover-underline-container">
             <a

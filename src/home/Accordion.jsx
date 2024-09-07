@@ -44,40 +44,44 @@ const Accordion = () => {
     <div className="accordion-container">
       <div className="accordion-content-wrapper">
         <h3 className="accordion-heading">
-          Bent u op zoek naar een inspirerende manier om jongeren te motiveren
-          en hun leesvaardigheid te verbeteren?
+          Bent u klaar om jongeren te inspireren en hun leesplezier te
+          verbeteren? Ontdek hoe ik u daarbij kan helpen!
           <br />
           <br />
         </h3>
-        <p className="accordion-subheading">
-          Waarom kiezen voor een workshop met Will-Limba?
-        </p>
-        <AccordionItem title="Interactieve Sessies">
+
+        <AccordionItem title="Lezingen voor jongeren">
           <p className="accordion-text">
-            Geen saaie lezingen, maar interactieve workshops waarin jongeren
-            actief deelnemen, lezen, en elkaar inspireren.
+            Boek me voor een sessie waarin ik vertel hoe ik van niet-lezer naar
+            boekenwurm ben gegroeid. Ik deel mijn verhaal, ga in gesprek met
+            jongeren over het belang van boeken en onderzoek samen wat zou
+            helpen om een positieve verandering te kunnen maken.
           </p>
         </AccordionItem>
-        <AccordionItem title="Boost van creativiteit">
+        <AccordionItem title="Lezingen voor leerkrachten en bibliotheekmedewerkers">
           <p className="accordion-text">
-            Will-Limba’s eigen verhaal – van niet-lezer tot gepassioneerde
-            boekenliefhebber – werkt aanstekelijk. Hij toont jongeren dat lezen
-            niet alleen belangrijk, maar ook leuk en verrijkend kan zijn.
+            Tijdens deze lezingen inspireer ik leerkrachten en
+            bibliotheekmedewerkers en deel ik mijn expertise over hoe zij
+            niet-lezers kunnen omtoveren tot gemotiveerde lezers. Ik benadruk
+            altijd dat leerkrachten, naast ouders, belangrijke leesbevorderaars
+            zijn. Het is cruciaal dat ze zich bewust zijn van hun invloed en
+            beseffen dat hun bijdrage een groot verschil kan maken in de
+            leesattitude van een kind.
           </p>
         </AccordionItem>
-        <AccordionItem title="Prikkelende Inhoud">
+        <AccordionItem title="Creatieve schrijf- en illustratieworkshops">
           <p className="accordion-text">
-            Will-Limba verbindt literatuur met de leefwereld van jongeren. Of
-            het nu gaat om populaire series, games, of maatschappelijke thema’s,
-            hij weet jongeren te enthousiasmeren door aan te sluiten bij hun
-            interesses.
+            In deze workshops plaats ik de deelnemers in mijn schoenen en geef
+            ik hen een creatieve opdracht. Ik begeleid hen gedurende de workshop
+            en deel meer over mijn creatieve proces, zowel in het algemeen als
+            specifiek voor mijn boek.
           </p>
         </AccordionItem>
-        <AccordionItem title="Community Building">
+        <AccordionItem title="Samenwerkingsproject">
           <p className="accordion-text">
-            Leerlingen of deelnemers verlaten de workshop niet alleen met nieuwe
-            inzichten, maar ook met een hernieuwde leesmotivatie en de wil om
-            anderen aan te steken met de leesmicrobe.
+            Heb je zelf een project dat je samen met mij wilt uitwerken? Neem
+            dan gerust contact op en stel het voor. In overleg bekijken we wat
+            we kunnen doen.
           </p>
         </AccordionItem>
         <hr />

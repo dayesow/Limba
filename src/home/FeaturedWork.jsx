@@ -48,7 +48,7 @@ const Work = ({ data }) => {
         alt={data.titleWork}
         style={{
           width: "100%",
-          objectFit: "cover",
+          objectFit: isMobile ? "contain" : "cover",
           height: isMobile ? "100%" : "450px",
         }}
       />
@@ -78,7 +78,7 @@ const FeaturedWork = () => {
       initialsWork: "",
       numberWork: "01",
       year: 2024,
-      imgSrc: "kmska1.jpg",
+      imgSrc: "permekesamenwerking.jpeg",
       width: 50,
     },
     {

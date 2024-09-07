@@ -28,7 +28,7 @@ const tabs = [
   },
   {
     id: 2,
-    title: "Project: Ndaku na Ngai",
+    title: "Ndaku na Ngai",
     images: [
       "LIMBATSHIRT/LIMBATSHIRT_1.jpeg",
       "LIMBATSHIRT/LIMBATSHIRT_2.jpeg",
@@ -104,6 +104,24 @@ const tabs = [
       "BOEKOWSKI/Boekowski_21.jpeg",
     ],
   },
+  {
+    id: 5,
+    title: "Limbaverse",
+    images: [
+      "LIMBAVERSE/LIMBAVERSE_1.png",
+      "LIMBAVERSE/LIMBAVERSE_2.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_3.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_4.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_5.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_6.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_7.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_8.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_9.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_11.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_12.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_13.jpeg",
+    ],
+  },
 ];
 
 const Gallery = () => {
@@ -147,7 +165,7 @@ const Gallery = () => {
         style={{ minHeight: "100vh", overflow: "auto" }}
       >
         <div className="gallery-header">
-          <h3 className="our-text">Gallery</h3>
+          <h3 className="our-text">Gallerij</h3>
         </div>
         <div className="tabs">
           {tabs.map((tab) => (

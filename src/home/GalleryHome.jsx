@@ -4,25 +4,25 @@ import "./gallery.scss";
 import { useNavigate } from "react-router-dom";
 import SplitType from "split-type";
 
-const images = [
-  "KMSKA/KMSKA_2.jpeg",
-  "BOEKOWSKI/Boekowski_1.jpeg",
-  "LIMBATSHIRT/LIMBATSHIRT_1.jpeg",
-  "ROMA/ROMA_20.jpeg",
-  "KMSKA/KMSKA_11.jpeg",
-  "BOEKOWSKI/Boekowski_4.jpeg",
-  "silversquare1.jpg",
-  "LIMBATSHIRT/LIMBATSHIRT_4.jpeg",
-  "ROMA/ROMA_21.jpeg",
-  "BOEKOWSKI/Boekowski_13.jpeg",
-  "KMSKA/KMSKA_14.jpeg",
-  "BOEKOWSKI/Boekowski_4.jpeg",
-  "LIMBATSHIRT/LIMBATSHIRT_13.jpeg",
-  "ROMA/ROMA_23.jpeg",
-  "BOEKOWSKI/Boekowski_12.jpeg",
-];
+// const images = [
+//   "KMSKA/KMSKA_2.jpeg",
+//   "BOEKOWSKI/Boekowski_1.jpeg",
+//   "LIMBATSHIRT/LIMBATSHIRT_1.jpeg",
+//   "ROMA/ROMA_20.jpeg",
+//   "KMSKA/KMSKA_11.jpeg",
+//   "BOEKOWSKI/Boekowski_4.jpeg",
+//   "silversquare1.jpg",
+//   "LIMBATSHIRT/LIMBATSHIRT_4.jpeg",
+//   "ROMA/ROMA_21.jpeg",
+//   "BOEKOWSKI/Boekowski_13.jpeg",
+//   "KMSKA/KMSKA_14.jpeg",
+//   "BOEKOWSKI/Boekowski_4.jpeg",
+//   "LIMBATSHIRT/LIMBATSHIRT_13.jpeg",
+//   "ROMA/ROMA_23.jpeg",
+//   "BOEKOWSKI/Boekowski_12.jpeg",
+// ];
 
-const Gallery = () => {
+const Gallery = ({ images }) => {
   const galleryRef = useRef(null);
   const navigate = useNavigate();
 
@@ -73,7 +73,7 @@ const Gallery = () => {
   return (
     <div className="gallery-container-home">
       <div className="gallery-header-container-home">
-        <h3 className="gallery-home-title">Gallery</h3>
+        <h3 className="gallery-home-title">Gallerij</h3>
         <div className="hover-underline-animation">
           <a
             href="/gallery"

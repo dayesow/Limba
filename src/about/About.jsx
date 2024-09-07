@@ -45,7 +45,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-header">
           <div className="about-top">
-            <h3 className="our-text">About</h3>
+            <h3 className="our-text">Over ons</h3>
           </div>
         </div>
         <div className="about-main-container">
@@ -62,14 +62,23 @@ const About = () => {
 
               <h3>De man achter Limba</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.<br></br> <br></br>Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Mijn naam is Will-Limba Moleka (24), leescoach, schrijver en
+                illustrator. Ik heb LIMBA opgericht met de missie om het
+                leesplezier en de leesmotivatie onder jongeren te stimuleren. Ik
+                werk samen met scholen, bibliotheken en publieke organisaties om
+                te laten zien hoe we samen het belang van literatuur en boeken
+                weer op de voorgrond kunnen brengen.<br></br> <br></br>Mijn
+                passie voor leesontwikkeling begon op mijn 18e, toen een
+                leerkracht Nederlands en Engels met zijn enthousiasme voor
+                boeken me inspireerde. Hoewel ik zelf weinig las, raakte ik
+                gefascineerd en besloot ik mezelf uit te dagen door een van de
+                dikste boeken op de leeslijst te lezen: Op Commando van Tom
+                Clancy. Dit bleek een keerpunt in mijn leven. Het zaadje dat
+                mijn leraar plantte, ontkiemde toen ik de laatste pagina
+                omsloeg, en al snel veranderde ik van een niet-lezer in een
+                fervente boekenwurm. Vandaag de dag ben ik leesbevorderaar,
+                geïnspireerd door de leraar die me liet zien hoe geweldig boeken
+                kunnen zijn.
               </p>
             </div>
             <div>
@@ -77,37 +86,61 @@ const About = () => {
 
               <h3>Missie</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Als leescoach is mijn missie om de leespromotie binnen
+                organisaties te versterken. Ik werk nauw samen met scholen,
+                bibliotheken en andere instellingen om hun leesbeleid,
+                leesomgeving en leesdidactiek te verbeteren. Samen stellen we
+                doelgerichte plannen op die niet alleen het lezen zichtbaarder
+                maken, maar ook niet-lezers begeleiden naar enthousiaste lezers.
+                Mijn aanpak draait om het creëren van positieve leeservaringen
+                en het bevorderen van een duurzame leescultuur.
               </p>
             </div>
             <div>
               <hr></hr>
 
-              <h3>Values</h3>
+              <h3>Waarden</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.<br></br> <br></br>Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                <ul>
+                  <li>
+                    <b>Leesplezier</b>: Voordat je niet-lezers kunt overtuigen
+                    van het belang van lezen, moet je ervoor zorgen dat lezen
+                    plezierig is. Een negatieve houding ten opzichte van lezen
+                    maakt het moeilijk om impact te maken. Daarom staat
+                    leesplezier centraal in al mijn diensten.
+                  </li>
+                  <br></br>
+                  <li>
+                    <b>Creativiteit</b>: In een tijd waarin boeken moeten
+                    concurreren met diverse vormen van media, is creativiteit
+                    essentieel om lezen aantrekkelijk te houden. Daarom zet
+                    LIMBA creativiteit in om het lezen in de schijnwerpers te
+                    zetten.
+                  </li>
+                  <br></br>
+                  <li>
+                    <b>Representatie</b>: Lezen is voor iedereen. Bij LIMBA
+                    vinden we het belangrijk om verschillende perspectieven,
+                    culturen en verhalen te belichten. Alleen door deze
+                    diversiteit te omarmen, kunnen we samen het belang van
+                    literatuur behouden en versterken.
+                  </li>
+                </ul>
               </p>
             </div>
             <div>
               <hr></hr>
 
-              <h3>Toekomst</h3>
+              <h3>Visie</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. mollit anim id est
-                laborum.
+                Met LIMBA wil ik een organisatie opbouwen die een aanzienlijke
+                impact heeft op de leesvaardigheid, leesattitude en
+                leesmotivatie van niet-lezers, met een focus op jongeren. Mijn
+                doel is om het lezen van boeken zichtbaarder en aantrekkelijker
+                te maken in onze samenleving. Daarnaast streef ik ernaar dat
+                boeken op macroniveau worden gepromoot, bijvoorbeeld via
+                reclameborden, advertenties, evenementen en tv-reclames, zodat
+                literatuur een prominente plaats krijgt in het dagelijks leven.
               </p>
             </div>
           </div>

@@ -48,22 +48,19 @@ const Menu = ({ isOpen, onClose }) => {
                 handleNavigation("/about");
               }}
             >
-              About
+              Over ons
             </a>
           </li>
 
           <li>
-            <a onClick={() => handleNavigation("/gallery")}>Gallery</a>
+            <a onClick={() => handleNavigation("/gallery")}>Gallerij</a>
           </li>
           <li>
-            <a onClick={() => handleNavigation("/bookpromotion")}>
-              Latest book
-            </a>
+            <a onClick={() => handleNavigation("/bookpromotion")}>Limbaverse</a>
           </li>
+
           <li>
-            <a href="https://buy.stripe.com/00g7uA2UR3NX9Ko6oo">
-              Koop Limbaverse
-            </a>
+            <a href="https://lu.ma/calendar/cal-hikbaXGuzfFH9l6">Events</a>
           </li>
         </ul>
       </nav>
