@@ -6,14 +6,14 @@
 
   height: 100vh;
   width: 100%;
-  background-image: url("src/assets/limbablackwhite.jpeg");
+  background-image: url("/assets/limbablackwhite.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
 
   @media (max-width: 768px) {
-    background-image: url("src/assets/limbamobile-VSCO.jpeg") !important;
+    background-image: url("/assets/limbamobile-VSCO.jpeg") !important;
     background-size: cover;
   }
   > h1 {

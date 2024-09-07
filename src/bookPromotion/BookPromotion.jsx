@@ -111,8 +111,8 @@ const BookPromotion = () => {
     );
   }, []);
   const srcImage = isMobile
-    ? "src/assets/limbaversecovermobile.jpeg"
-    : "src/assets/coverbook.webp";
+    ? "/assets/limbaversecovermobile.jpeg"
+    : "/assets/coverbook.webp";
   return (
     <>
       <div style={{ overflowX: "hidden", width: "100%" }}>
@@ -170,7 +170,7 @@ const BookPromotion = () => {
             </div>
             <div className="summary-right-container">
               <img
-                src="src/assets/LIMBAVERSE/LIMBAVERSE_1.png"
+                src="/assets/LIMBAVERSE/LIMBAVERSE_1.png"
                 alt="LimbaVerse Drawing"
               />
             </div>
@@ -178,9 +178,9 @@ const BookPromotion = () => {
         </div>
         <div className="container-after-header">
           <div className="after-header-left">
-            <img src="src/assets/process1.jpeg" alt="Limba process" />
-            <img src="src/assets/process3.jpeg" alt="Limba process" />
-            {/* <img src="src/assets/process4.jpeg" alt="Limba process" /> */}
+            <img src="/assets/process1.jpeg" alt="Limba process" />
+            <img src="/assets/process3.jpeg" alt="Limba process" />
+            {/* <img src="/assets/process4.jpeg" alt="Limba process" /> */}
           </div>
           <div className="after-header-right">
             <h3 className="after-header-title">Process</h3>

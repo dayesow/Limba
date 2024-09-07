@@ -186,7 +186,7 @@ const Gallery = () => {
             .images.map((image, index) => (
               <img
                 key={index}
-                src={`src/assets/${image}`}
+                src={`/assets/${image}`}
                 alt={`Gallery ${activeTab}`}
               />
             ))}

@@ -33,7 +33,7 @@ const Work = ({ data }) => {
   const isMobile = useWindowSize();
 
   // Use template literals correctly to construct the image source path
-  const imgSrc = `src/assets/${data.imgSrc}`;
+  const imgSrc = `/assets/${data.imgSrc}`;
 
   return (
     <div

@@ -5,12 +5,12 @@ import SplitType from "split-type";
 import { useWindowSize } from "./FeaturedWork";
 
 const images = [
-  "src/assets/BOEKOWSKI/Boekowski_10.jpeg",
-  "src/assets/lezenisgoud.jpeg",
-  "src/assets/lezenisgoud2.jpeg",
-  "src/assets/limbadrawing.jpeg",
-  "src/assets/photo-119.jpg",
-  "src/assets/KMSKA/KMSKA_5.jpeg",
+  "/assets/BOEKOWSKI/Boekowski_10.jpeg",
+  "/assets/lezenisgoud.jpeg",
+  "/assets/lezenisgoud2.jpeg",
+  "/assets/limbadrawing.jpeg",
+  "/assets/photo-119.jpg",
+  "/assets/KMSKA/KMSKA_5.jpeg",
 ];
 
 const ActiveWorkSpace = () => {

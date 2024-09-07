@@ -52,7 +52,7 @@ const About = () => {
           <div className="about-left">
             <img
               className="limba-left"
-              src="src/assets/silversquare3.jpg"
+              src="/assets/silversquare3.jpg"
               alt="Limba About Picture"
             />
           </div>

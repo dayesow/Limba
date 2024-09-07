@@ -9,7 +9,7 @@ const Header = ({ toggleMenu }) => {
     <header className="header">
       <div className="header-left">
         <img
-          src="src/assets/limbalogo2.png"
+          src="/assets/limbalogo2.png"
           alt="logo-limba"
           onClick={() => {
             navigate("/home");
