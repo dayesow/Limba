@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import "./activeworkspace.scss";
 import SplitType from "split-type";
+import { useWindowSize } from "./FeaturedWork";
 
 const images = [
   "src/assets/BOEKOWSKI/Boekowski_10.jpeg",
@@ -15,7 +16,7 @@ const images = [
 const ActiveWorkSpace = () => {
   const imageContainerRef = useRef(null);
   let imageIndex = 0;
-
+  const isMobile = useWindowSize();
   useEffect(() => {
     const slideImages = () => {
       const currentImage = imageContainerRef.current.children[imageIndex];
@@ -68,7 +69,9 @@ const ActiveWorkSpace = () => {
   return (
     <div className="active-work-space" style={{ minHeight: "100vh" }}>
       <div className="title">
-        <h3 className="active-work-title">Ruimtes waarin ik werk</h3>
+        <h3 className="active-work-title">
+          Ruimtes {isMobile && <br></br>}waarin {isMobile && <br></br>}ik werk
+        </h3>
       </div>
       <div className="areas-of-focus">
         <div className="focus-section">
