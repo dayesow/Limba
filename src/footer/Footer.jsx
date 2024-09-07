@@ -1,6 +1,14 @@
 import "./footer.scss";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleScrollToWork = (path) => {
+    event.preventDefault();
+    navigate(path); // Verander naar de route van de andere pagina
+    window.scrollTo(0, 0);
+  };
   const scrollToTop = (event) => {
     event.preventDefault();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -27,23 +35,35 @@ const Footer = () => {
           <h3>Sitemap</h3>
           <ul>
             <li>
-              <a href="/home" className="hover-underline-animation">
+              <a
+                onClick={() => handleScrollToWork("/home")}
+                className="hover-underline-animation"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="/about" className="hover-underline-animation">
+              <a
+                onClick={() => handleScrollToWork("/about")}
+                className="hover-underline-animation"
+              >
                 Over ons
               </a>
             </li>
 
             <li>
-              <a href="/gallery" className="hover-underline-animation">
+              <a
+                onClick={() => handleScrollToWork("/gallery")}
+                className="hover-underline-animation"
+              >
                 Gallerij
               </a>
             </li>
             <li>
-              <a href="/bookpromotion" className="hover-underline-animation">
+              <a
+                onClick={() => handleScrollToWork("/bookpromotion")}
+                className="hover-underline-animation"
+              >
                 Limbaverse
               </a>
             </li>

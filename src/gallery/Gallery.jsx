@@ -188,6 +188,7 @@ const Gallery = () => {
                 key={index}
                 src={`/assets/${image}`}
                 alt={`Gallery ${activeTab}`}
+                loading="lazy"
               />
             ))}
         </div>
