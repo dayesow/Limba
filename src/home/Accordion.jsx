@@ -53,7 +53,7 @@ const Accordion = () => {
         <AccordionItem title="Lezingen voor jongeren">
           <p className="accordion-text">
             Boek me voor een sessie waarin ik vertel hoe ik van niet-lezer naar
-            boekenwurm ben gegroeid. Ik deel mijn verhaal, ga in gesprek met
+            boekenwurm ben gegroeid. Ik deel mijn verhaal, ga in gesprek met de
             jongeren over het belang van boeken en onderzoek samen wat zou
             helpen om een positieve verandering te kunnen maken.
           </p>
@@ -63,10 +63,10 @@ const Accordion = () => {
             Tijdens deze lezingen inspireer ik leerkrachten en
             bibliotheekmedewerkers en deel ik mijn expertise over hoe zij
             niet-lezers kunnen omtoveren tot gemotiveerde lezers. Ik benadruk
-            altijd dat leerkrachten, naast ouders, belangrijke leesbevorderaars
-            zijn. Het is cruciaal dat ze zich bewust zijn van hun invloed en
-            beseffen dat hun bijdrage een groot verschil kan maken in de
-            leesattitude van een kind.
+            altijd dat zij, naast ouders, belangrijke leesbevorderaars zijn. Het
+            is cruciaal dat ze zich bewust zijn van hun invloed en beseffen dat
+            hun bijdrage een groot verschil kan maken in de leesattitude van een
+            kind.
           </p>
         </AccordionItem>
         <AccordionItem title="Creatieve schrijf- en illustratieworkshops">

@@ -31,7 +31,7 @@ const Home = () => {
   ];
   return (
     <>
-      <div style={{ overflowX: "hidden" }}>
+      <div style={{ overflow: "hidden" }}>
         <Hero />
         <HomeVideo />
 

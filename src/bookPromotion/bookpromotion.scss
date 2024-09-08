@@ -12,10 +12,6 @@
     width: 100%; /* Zorg ervoor dat de afbeeldingen 100% van hun container innemen */
     // height: 100vh; /* Zorg ervoor dat de afbeeldingen de volledige hoogte van het scherm innemen */
     object-fit: cover; /* Bedek het gebied en behoud de verhoudingen */
-
-    @media (max-width: 768px) {
-      height: 120vh;
-    }
   }
 
   .services-footer {
@@ -148,6 +144,7 @@
           font-size: 1rem;
           color: #86888a;
           width: 30rem;
+          font-style: italic;
         }
       }
     }

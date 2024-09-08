@@ -111,11 +111,11 @@ const BookPromotion = () => {
     );
   }, []);
   const srcImage = isMobile
-    ? "/assets/limbaversecovermobile.jpeg"
+    ? "/assets/limbaversecovermobile.webp"
     : "/assets/coverbook.webp";
   return (
     <>
-      <div style={{ overflowX: "hidden", width: "100%" }}>
+      <div style={{ overflow: "hidden", width: "100%" }}>
         <div className="services-container">
           <div className="cover-left">
             <img className="limbacover" src={srcImage} alt="limbaversecover" />
@@ -180,24 +180,23 @@ const BookPromotion = () => {
           <div className="after-header-left">
             <img src="/assets/process1.jpeg" alt="Limba process" />
             <img src="/assets/process3.jpeg" alt="Limba process" />
-            {/* <img src="/assets/process4.jpeg" alt="Limba process" /> */}
           </div>
           <div className="after-header-right">
-            <h3 className="after-header-title">Process</h3>
+            <h3 className="after-header-title">Proces</h3>
 
             <div className="process-container">
               <p className="process-nunmber">01.</p>
               <div className="process-content">
                 <h4>Het Concept</h4>
                 <p>
-                  Uitgeverij Houtekiet kwam met het voorstel om het boek te
+                  “Uitgeverij Houtekiet kwam met het voorstel om het boek te
                   schrijven zonder dat ik een manuscript had. Ik moest dus
                   enkele maanden intensief nadenken, brainstormen en lezen om
                   uit te zoeken hoe ik het verhaal vorm zou geven. Ik wilde niet
                   aankomen met een droge boekenlijst voor jongeren, zeker niet
                   voor mijn doelgroep van 12-14 jaar. Limbaverse moest een
                   verhaal worden vol levendige karakters, beruchte schurken en
-                  een inspirerend plot waarin de lezer zich kon verliezen.
+                  een inspirerend plot waarin de lezer zich kon verliezen.”
                 </p>
               </div>
             </div>
@@ -207,7 +206,7 @@ const BookPromotion = () => {
               <div className="process-content">
                 <h4>Schrijven</h4>
                 <p>
-                  Als iemand mij twee jaar geleden de vraag zou stellen wanneer
+                  “Als iemand mij twee jaar geleden de vraag zou stellen wanneer
                   ik mijn eigen boek zou uitbrengen, dan zou ik snel antwoorden
                   dat ik pas op mijn dertig zou schrijven, maar sinds een
                   uitgever met die vraag kwam kon ik onmogelijk nee zeggen. Dus
@@ -219,7 +218,7 @@ const BookPromotion = () => {
                   angst iedere dag te confronteren door simpelweg eraan te
                   beginnen zonder na te denken totdat ik het plezier in begon te
                   vinden en zelfs ontdekte dat het ongelofelijk leerrijk is en
-                  al mijn taalvaardigheden op een korte tijd heeft versterkt.
+                  al mijn taalvaardigheden op een korte tijd heeft versterkt.”
                 </p>
               </div>
             </div>
@@ -229,25 +228,25 @@ const BookPromotion = () => {
               <div className="process-content">
                 <h4>Illustreren</h4>
                 <p>
-                  Zou je me geloven als ik zeg dat ik pas anderhalf jaar geleden
-                  ben begonnen met illustreren? Het is echt waar! Ik heb mezelf
-                  leren tekenen nadat ik een iPad kocht om posters voor mijn
-                  evenementen te ontwerpen — Canva bleek te beperkt. Tijdens de
-                  eerste vergadering met de redacteur en directrice van mijn
-                  uitgeverij benadrukte ik dat het boek illustraties moest
-                  bevatten, want de nieuwe generatie is dol op beelden. De vraag
-                  was alleen: “Wie gaat de illustraties maken?” <br></br>
+                  "Zou je me geloven als ik zeg dat ik pas anderhalf jaar
+                  geleden ben begonnen met illustreren? Het is echt waar! Ik heb
+                  mezelf leren tekenen nadat ik een iPad kocht om posters voor
+                  mijn evenementen te ontwerpen — Canva bleek te beperkt.
+                  Tijdens de eerste vergadering met de redacteur en directrice
+                  van mijn uitgeverij benadrukte ik dat het boek illustraties
+                  moest bevatten, want de nieuwe generatie is dol op beelden. De
+                  vraag was alleen: 'Wie gaat de illustraties maken?' <br></br>
                   <br></br> Nou… ik zag dit als de perfecte kans om mijn
                   vaardigheden echt op de proef te stellen. Het betekende dat ik
                   zowel het boek zou moeten illustreren als schrijven. Ik
                   kondigde dit aan met een glimlach, maar vanbinnen dacht ik:
-                  “Je bent echt gek!” Terugkijkend was het inderdaad een gewaagd
+                  'Je bent echt gek!' Terugkijkend was het inderdaad een gewaagd
                   idee. Maar tijdens het illustreren ontdekte ik dat het juist
                   een troef was. Zodra ik een illustratie af had, kon ik
                   eenvoudig beschrijven wat ik voor me zag, wat het schrijven
                   veel makkelijker maakte. Ik kan je verzekeren dat zonder de
                   illustraties het boek er heel anders had uitgezien. Dus ik ben
-                  blij dat ik het risico heb genomen!
+                  blij dat ik het risico heb genomen!"
                 </p>
               </div>
             </div>

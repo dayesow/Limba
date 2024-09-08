@@ -108,11 +108,11 @@ const tabs = [
     id: 5,
     title: "Limbaverse",
     images: [
-      "LIMBAVERSE/LIMBAVERSE_1.png",
-      "LIMBAVERSE/LIMBAVERSE_2.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_3.jpeg",
       "LIMBAVERSE/LIMBAVERSE_4.jpeg",
       "LIMBAVERSE/LIMBAVERSE_5.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_3.jpeg",
+      "LIMBAVERSE/LIMBAVERSE_1.png",
+      "LIMBAVERSE/LIMBAVERSE_2.jpeg",
       "LIMBAVERSE/LIMBAVERSE_6.jpeg",
       "LIMBAVERSE/LIMBAVERSE_7.jpeg",
       "LIMBAVERSE/LIMBAVERSE_8.jpeg",
@@ -127,6 +127,7 @@ const tabs = [
 const Gallery = () => {
   const [activeTab, setActiveTab] = useState(tabs[0].id);
   const [fade, setFade] = useState(false);
+  const [modalImage, setModalImage] = useState(null);
 
   const handleTabClick = (tabId) => {
     if (tabId === activeTab) return; // Prevent clicking on the active tab
@@ -135,6 +136,14 @@ const Gallery = () => {
       setActiveTab(tabId);
       setFade(false);
     }, 300); // Match the duration of the fade-out animation
+  };
+
+  const openModal = (image) => {
+    setModalImage(image);
+  };
+
+  const closeModal = () => {
+    setModalImage(null);
   };
 
   useEffect(() => {
@@ -189,11 +198,19 @@ const Gallery = () => {
                 src={`/assets/${image}`}
                 alt={`Gallery ${activeTab}`}
                 loading="lazy"
+                onClick={() => openModal(image)}
               />
             ))}
         </div>
       </div>
       <Footer />
+      {modalImage && (
+        <div className="modal" onClick={closeModal}>
+          <div className="modal-content">
+            <img src={`/assets/${modalImage}`} alt="Modal" />
+          </div>
+        </div>
+      )}
     </>
   );
 };

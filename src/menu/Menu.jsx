@@ -35,7 +35,7 @@ const Menu = ({ isOpen, onClose }) => {
   return (
     <div ref={menuRef} className="menu">
       <button className="close-button" onClick={onClose}>
-        Close
+        Sluit
       </button>
       <nav>
         <ul>

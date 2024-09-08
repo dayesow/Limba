@@ -62,21 +62,21 @@ const About = () => {
 
               <h3>De man achter Limba</h3>
               <p>
-                Mijn naam is Will-Limba Moleka (24), leescoach, schrijver en
-                illustrator. Ik heb LIMBA opgericht met de missie om het
-                leesplezier en de leesmotivatie onder jongeren te stimuleren. Ik
-                werk samen met scholen, bibliotheken en publieke organisaties om
-                te laten zien hoe we samen het belang van literatuur en boeken
-                weer op de voorgrond kunnen brengen.<br></br> <br></br>Mijn
-                passie voor leesontwikkeling begon op mijn 18e, toen een
-                leerkracht Nederlands en Engels met zijn enthousiasme voor
-                boeken me inspireerde. Hoewel ik zelf weinig las, raakte ik
-                gefascineerd en besloot ik mezelf uit te dagen door een van de
-                dikste boeken op de leeslijst te lezen: Op Commando van Tom
-                Clancy. Dit bleek een keerpunt in mijn leven. Het zaadje dat
-                mijn leraar plantte, ontkiemde toen ik de laatste pagina
-                omsloeg, en al snel veranderde ik van een niet-lezer in een
-                fervente boekenwurm. Vandaag de dag ben ik leesbevorderaar,
+                Mijn naam is Will-Limba Moleka (24). Ik ben leescoach, schrijver
+                en illustrator. In 2024 heb ik LIMBA COMMV opgericht met als
+                missie om het leesplezier en de leesmotivatie onder jongeren te
+                stimuleren. Ik werk samen met scholen, bibliotheken en publieke
+                organisaties om te laten zien hoe we samen het belang van
+                literatuur en boeken weer op de voorgrond kunnen brengen.
+                <br></br> <br></br>Mijn passie voor leesontwikkeling begon op
+                mijn 18e, toen een leerkracht Nederlands en Engels met zijn
+                enthousiasme voor boeken me inspireerde. Hoewel ik zelf weinig
+                las, raakte ik gefascineerd en besloot ik mezelf uit te dagen
+                door een van de dikste boeken op de leeslijst te lezen: Op
+                Commando van Tom Clancy. Dit bleek een keerpunt in mijn leven.
+                Het zaadje dat mijn leraar plantte, ontkiemde toen ik de laatste
+                pagina omsloeg, en al snel veranderde ik van een niet-lezer in
+                een fervente boekenwurm. Vandaag de dag ben ik leesbevorderaar,
                 geïnspireerd door de leraar die me liet zien hoe geweldig boeken
                 kunnen zijn.
               </p>
@@ -87,7 +87,7 @@ const About = () => {
               <h3>Missie</h3>
               <p>
                 Als leescoach is mijn missie om de leespromotie binnen
-                organisaties te versterken. Ik werk nauw samen met scholen,
+                organisaties te versterken. We werken nauw samen met scholen,
                 bibliotheken en andere instellingen om hun leesbeleid,
                 leesomgeving en leesdidactiek te verbeteren. Samen stellen we
                 doelgerichte plannen op die niet alleen het lezen zichtbaarder
@@ -133,11 +133,11 @@ const About = () => {
 
               <h3>Visie</h3>
               <p>
-                Met LIMBA wil ik een organisatie opbouwen die een aanzienlijke
-                impact heeft op de leesvaardigheid, leesattitude en
+                Met LIMBA willen we een organisatie opbouwen die een
+                aanzienlijke impact heeft op de leesvaardigheid, leesattitude en
                 leesmotivatie van niet-lezers, met een focus op jongeren. Mijn
                 doel is om het lezen van boeken zichtbaarder en aantrekkelijker
-                te maken in onze samenleving. Daarnaast streef ik ernaar dat
+                te maken in onze samenleving. Daarnaast streven we ernaar dat
                 boeken op macroniveau worden gepromoot, bijvoorbeeld via
                 reclameborden, advertenties, evenementen en tv-reclames, zodat
                 literatuur een prominente plaats krijgt in het dagelijks leven.
