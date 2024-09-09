@@ -104,24 +104,24 @@ const tabs = [
       "BOEKOWSKI/Boekowski_21.jpeg",
     ],
   },
-  {
-    id: 5,
-    title: "Limbaverse",
-    images: [
-      "LIMBAVERSE/LIMBAVERSE_4.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_5.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_3.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_1.png",
-      "LIMBAVERSE/LIMBAVERSE_2.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_6.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_7.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_8.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_9.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_11.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_12.jpeg",
-      "LIMBAVERSE/LIMBAVERSE_13.jpeg",
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "Limbaverse",
+  //   images: [
+  //     "LIMBAVERSE/LIMBAVERSE_4.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_5.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_3.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_1.png",
+  //     "LIMBAVERSE/LIMBAVERSE_2.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_6.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_7.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_8.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_9.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_11.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_12.jpeg",
+  //     "LIMBAVERSE/LIMBAVERSE_13.jpeg",
+  //   ],
+  // },
 ];
 
 const Gallery = () => {

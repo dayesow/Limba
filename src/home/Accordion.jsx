@@ -44,7 +44,7 @@ const Accordion = () => {
     <div className="accordion-container">
       <div className="accordion-content-wrapper">
         <h3 className="accordion-heading">
-          Bent u klaar om jongeren te inspireren en hun leesplezier te
+          Ben je klaar om jongeren te inspireren en hun leesplezier te
           verbeteren? Ontdek hoe ik u daarbij kan helpen!
           <br />
           <br />

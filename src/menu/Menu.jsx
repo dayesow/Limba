@@ -48,7 +48,7 @@ const Menu = ({ isOpen, onClose }) => {
                 handleNavigation("/about");
               }}
             >
-              Over ons
+              Over Limba
             </a>
           </li>
 
@@ -59,6 +59,9 @@ const Menu = ({ isOpen, onClose }) => {
             <a onClick={() => handleNavigation("/bookpromotion")}>Limbaverse</a>
           </li>
 
+          <li>
+            <a href="mailto:limba.wml@gmail.com">Contact</a>
+          </li>
           <li>
             <a href="https://lu.ma/calendar/cal-hikbaXGuzfFH9l6">Events</a>
           </li>

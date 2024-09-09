@@ -45,7 +45,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-header">
           <div className="about-top">
-            <h3 className="our-text">Over ons</h3>
+            <h3 className="our-text">Over Limba</h3>
           </div>
         </div>
         <div className="about-main-container">

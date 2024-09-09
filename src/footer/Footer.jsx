@@ -47,7 +47,7 @@ const Footer = () => {
                 onClick={() => handleScrollToWork("/about")}
                 className="hover-underline-animation"
               >
-                Over ons
+                Over Limba
               </a>
             </li>
 
@@ -109,7 +109,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <h4>LIMBA</h4>
-        <p>&copy; 2024</p>
+        <p>&copy; 2024 </p>
         <p>
           <a
             href="#top"

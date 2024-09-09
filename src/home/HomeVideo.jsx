@@ -20,10 +20,10 @@ const HomeVideo = () => {
       <video
         ref={videoRef}
         src={"/limbaxkmska.mp4"}
-        autoPlay
         loop
         muted
-        playsinline
+        autoPlay
+        playsInline
         onTimeUpdate={handleTimeUpdate}
       ></video>
     </div>

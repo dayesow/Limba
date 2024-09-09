@@ -283,7 +283,7 @@ const BookPromotion = () => {
           </div>
         </div>
         <div style={{ position: "relative", zIndex: 5 }}>
-          <Gallery images={images} />
+          {/* <Gallery images={images} /> */}
           <Footer />
         </div>
       </div>
