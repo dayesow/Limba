@@ -23,6 +23,7 @@ const HomeVideo = () => {
         autoPlay
         loop
         muted
+        playsinline
         onTimeUpdate={handleTimeUpdate}
       ></video>
     </div>

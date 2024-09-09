@@ -4,6 +4,9 @@
   overflow: hidden;
   min-height: 100vh;
   margin: 0;
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 }
 
 .gallery-header {

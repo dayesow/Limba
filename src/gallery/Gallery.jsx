@@ -79,7 +79,7 @@ const tabs = [
   },
   {
     id: 4,
-    title: "Cafe Boekowski",
+    title: "Café Boekowski",
     images: [
       "BOEKOWSKI/Boekowski_1.jpeg",
       "BOEKOWSKI/Boekowski_2.jpeg",

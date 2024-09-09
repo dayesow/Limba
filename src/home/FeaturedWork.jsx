@@ -93,6 +93,9 @@ const FeaturedWork = () => {
   ];
 
   useEffect(() => {
+    const startValue = window.innerWidth <= 768 ? "top 100%" : "top 80%";
+    const endValue = window.innerWidth <= 768 ? "top 30%" : "top 30%";
+
     gsap.fromTo(
       ".animate-hr-project",
       { width: "0%" }, // Initial state
@@ -102,9 +105,9 @@ const FeaturedWork = () => {
         ease: "power4.out", // Easing function for a smoother animation
         scrollTrigger: {
           trigger: ".animate-hr-project",
-          start: "top 80%", // Start animation when the top of the element hits 80% of the viewport height
-          end: "top 30%", // End animation when the top of the element hits 30% of the viewport height
-          scrub: false, // Synchronize animation with scroll, with a 1-second delay
+          start: startValue, // Adjust start position based on screen width
+          end: endValue, // Adjust end position based on screen width
+          scrub: false, // Synchronize animation with scroll
         },
       }
     );
@@ -126,8 +129,8 @@ const FeaturedWork = () => {
         ease: "power4.out",
         scrollTrigger: {
           trigger: "h3.featured-work-title",
-          start: "top 80%",
-          end: "bottom 20%",
+          start: startValue, // Adjust start position based on screen width
+          end: endValue,
           toggleActions: "play none none none",
         },
       }

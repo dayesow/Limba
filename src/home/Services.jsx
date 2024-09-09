@@ -50,6 +50,9 @@ const Services = () => {
     },
   ];
   useEffect(() => {
+    const startValue = window.innerWidth <= 768 ? "top 100%" : "top 80%";
+    const endValue = window.innerWidth <= 768 ? "top 30%" : "top 30%";
+
     gsap.fromTo(
       ".animate-hr",
       { width: "0%" }, // Initial state
@@ -59,8 +62,8 @@ const Services = () => {
         ease: "power4.out", // Easing function for a smoother animation
         scrollTrigger: {
           trigger: ".animate-hr",
-          start: "top 80%", // Start animation when the top of the element hits 80% of the viewport height
-          end: "top 30%", // End animation when the top of the element hits 30% of the viewport height
+          start: startValue, // Start animation when the top of the element hits 80% of the viewport height
+          end: endValue, // End animation when the top of the element hits 30% of the viewport height
           scrub: false, // Synchronize animation with scroll, with a 1-second delay
         },
       }
@@ -83,8 +86,8 @@ const Services = () => {
         ease: "power4.out",
         scrollTrigger: {
           trigger: "h3.service-text",
-          start: "top 80%",
-          end: "bottom 20%",
+          start: startValue, // Start animation when the top of the element hits 80% of the viewport height
+          end: endValue, // End animation when the top of the element hits 30% of the viewport height
           toggleActions: "play none none none",
         },
       }

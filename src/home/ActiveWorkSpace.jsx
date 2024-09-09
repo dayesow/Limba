@@ -18,6 +18,9 @@ const ActiveWorkSpace = () => {
   let imageIndex = 0;
   const isMobile = useWindowSize();
   useEffect(() => {
+    const startValue = window.innerWidth <= 768 ? "top 100%" : "top 80%";
+    const endValue = window.innerWidth <= 768 ? "top 30%" : "top 30%";
+
     const slideImages = () => {
       const currentImage = imageContainerRef.current.children[imageIndex];
       const nextImage =
@@ -55,8 +58,8 @@ const ActiveWorkSpace = () => {
         ease: "power4.out",
         scrollTrigger: {
           trigger: "h3.active-work-title",
-          start: "top 80%",
-          end: "bottom 20%",
+          start: startValue, // Start animation when the top of the element hits 80% of the viewport height
+          end: endValue, // End animation when the top of the element hits 30% of the viewport height
           toggleActions: "play none none none",
         },
       }
@@ -70,7 +73,7 @@ const ActiveWorkSpace = () => {
     <div className="active-work-space" style={{ minHeight: "100vh" }}>
       <div className="title">
         <h3 className="active-work-title">
-          Ruimtes {isMobile && <br></br>}waarin {isMobile && <br></br>}ik werk
+          Mijn {isMobile && <br></br>}werkruimtes
         </h3>
       </div>
       <div className="areas-of-focus">
