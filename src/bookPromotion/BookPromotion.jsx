@@ -27,17 +27,18 @@ const useWindowSize = () => {
 const BookPromotion = () => {
   const isMobile = useWindowSize();
   const images = [
-    "LIMBAVERSE/LIMBAVERSE_2.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_3.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_4.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_5.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_6.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_7.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_8.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_9.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_11.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_12.jpeg",
-    "LIMBAVERSE/LIMBAVERSE_13.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_14.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_15.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_16.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_14.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_15.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_16.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_14.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_15.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_16.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_14.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_15.jpeg",
+    "LIMBAVERSE/LIMBAVERSE_16.jpeg",
   ];
   useEffect(() => {
     const ourText = new SplitType("h3.book-promotion-title", {
@@ -283,7 +284,7 @@ const BookPromotion = () => {
           </div>
         </div>
         <div style={{ position: "relative", zIndex: 5 }}>
-          {/* <Gallery images={images} /> */}
+          <Gallery images={images} />
           <Footer />
         </div>
       </div>

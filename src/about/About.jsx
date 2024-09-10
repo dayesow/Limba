@@ -87,13 +87,14 @@ const About = () => {
               <h3>Missie</h3>
               <p>
                 Als leescoach is mijn missie om de leespromotie binnen
-                organisaties te versterken. We werken nauw samen met scholen,
+                organisaties te versterken. Ik werk nauw samen met scholen,
                 bibliotheken en andere instellingen om hun leesbeleid,
-                leesomgeving en leesdidactiek te verbeteren. Samen stellen we
-                doelgerichte plannen op die niet alleen het lezen zichtbaarder
-                maken, maar ook niet-lezers begeleiden naar enthousiaste lezers.
-                Mijn aanpak draait om het creëren van positieve leeservaringen
-                en het bevorderen van een duurzame leescultuur.
+                leesomgeving en leesdidactiek te verbeteren. Samen hoop ik
+                doelgerichte plannen op te stellen die niet alleen het lezen
+                zichtbaarder maken, maar ook niet-lezers begeleiden naar
+                enthousiaste lezers. Mijn aanpak draait om het creëren van
+                positieve leeservaringen en het bevorderen van een duurzame
+                leescultuur.
               </p>
             </div>
             <div>
@@ -119,11 +120,11 @@ const About = () => {
                   </li>
                   <br></br>
                   <li>
-                    <b>Representatie</b>: Lezen is voor iedereen. Bij LIMBA
-                    vinden we het belangrijk om verschillende perspectieven,
-                    culturen en verhalen te belichten. Alleen door deze
-                    diversiteit te omarmen, kunnen we samen het belang van
-                    literatuur behouden en versterken.
+                    <b>Representatie</b>: Lezen is voor iedereen. Bij LIMBA vind
+                    ik het belangrijk om verschillende perspectieven, culturen
+                    en verhalen te belichten. Alleen door deze diversiteit te
+                    omarmen, kunnen we samen het belang van literatuur behouden
+                    en versterken.
                   </li>
                 </ul>
               </p>
@@ -133,11 +134,11 @@ const About = () => {
 
               <h3>Visie</h3>
               <p>
-                Met LIMBA willen we een organisatie opbouwen die een
-                aanzienlijke impact heeft op de leesvaardigheid, leesattitude en
+                Met LIMBA wil ik een organisatie opbouwen die een aanzienlijke
+                impact heeft op de leesvaardigheid, leesattitude en
                 leesmotivatie van niet-lezers, met een focus op jongeren. Mijn
                 doel is om het lezen van boeken zichtbaarder en aantrekkelijker
-                te maken in onze samenleving. Daarnaast streven we ernaar dat
+                te maken in onze samenleving. Daarnaast streef ik ernaar dat
                 boeken op macroniveau worden gepromoot, bijvoorbeeld via
                 reclameborden, advertenties, evenementen en tv-reclames, zodat
                 literatuur een prominente plaats krijgt in het dagelijks leven.
