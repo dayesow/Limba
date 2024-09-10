@@ -53,7 +53,7 @@ const Menu = ({ isOpen, onClose }) => {
           </li>
 
           <li>
-            <a onClick={() => handleNavigation("/gallery")}>Gallerij</a>
+            <a onClick={() => handleNavigation("/gallery")}>Galerij</a>
           </li>
           <li>
             <a onClick={() => handleNavigation("/bookpromotion")}>Limbaverse</a>

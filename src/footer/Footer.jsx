@@ -56,7 +56,7 @@ const Footer = () => {
                 onClick={() => handleScrollToWork("/gallery")}
                 className="hover-underline-animation"
               >
-                Gallerij
+                Galerij
               </a>
             </li>
             <li>

@@ -177,7 +177,7 @@ const Gallery = () => {
         style={{ minHeight: "100vh", overflow: "auto" }}
       >
         <div className="gallery-header">
-          <h3 className="our-text">Gallerij</h3>
+          <h3 className="our-text">Galerij</h3>
         </div>
         <div className="tabs">
           {tabs.map((tab) => (

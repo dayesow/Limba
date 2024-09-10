@@ -39,7 +39,7 @@ const Gallery = () => {
   return (
     <div className="gallery-container">
       <div className="gallery-header-container">
-        <h3>Gallerij</h3>
+        <h3>Galerij</h3>
         <div className="hover-underline-animation">
           <a
             href="/gallery"

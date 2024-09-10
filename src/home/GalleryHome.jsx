@@ -57,7 +57,7 @@ const Gallery = ({ images }) => {
   return (
     <div className="gallery-container-home">
       <div className="gallery-header-container-home">
-        <h3 className="gallery-home-title">Gallerij</h3>
+        <h3 className="gallery-home-title">Galerij</h3>
         <div className="hover-underline-animation">
           <a
             href="/gallery"
