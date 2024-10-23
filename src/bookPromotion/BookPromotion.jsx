@@ -135,8 +135,8 @@ const BookPromotion = () => {
           <div style={{ display: "flex", alignItems: "flex-start" }}>
             <div className="summary-container">
               <p>
-                Hoe krijg je jongeren aan het lezen? Dat is dé vraag
-                dieleesbevorderaars, leerkrachten en schrijvers uit hun slaap
+                Hoe krijg je jongeren aan het lezen? Dat is dé vraag die
+                leesbevorderaars, leerkrachten en schrijvers uit hun slaap
                 houdt. Onderzoeken naar het imago van het boek leveren al een
                 tijdje een treurig plaatje op, en de gevolgen daarvan zijn af te
                 lezen uit elk onderzoek naar leesvaardigheid. Het kan Will-Limba
